@@ -1,0 +1,22 @@
+{
+  "name": "w2e",
+  "version": "0.1.0",
+  "description": "quick decision maker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "eat",
+    "telegram",
+    "bot",
+    "bupt"
+  ],
+  "author": "yulibao",
+  "license": "MIT",
+  "dependencies": {
+    "https-proxy-agent": "^3.0.1",
+    "telegraf": "^3.33.3"
+  }
+}

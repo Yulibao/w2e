@@ -1,0 +1,9 @@
+# sensitive config info
+config/index.js
+
+# dependency directories
+node_modules/
+
+# IDE
+.vscode/
+.idea/
