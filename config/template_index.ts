@@ -1,6 +1,7 @@
 /* copy this to  ./index.js and add configuration */
-
-module.exports = {
+const config = {
     "BOT_TOKEN":"",
     "HTTPS_PROXY":""
 }
+
+export default config

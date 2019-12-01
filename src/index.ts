@@ -1,7 +1,7 @@
-const Telegraf = require('telegraf')
-const HttpsProxyAgent = require('https-proxy-agent')
+import Telegraf from 'telegraf'
+import HttpsProxyAgent from 'https-proxy-agent'
 
-const config = require('./config')
+import config from '../config'
 
 const bot = new Telegraf(config.BOT_TOKEN,{
     telegram:{

@@ -4,8 +4,7 @@
   "description": "quick decision maker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "tsc && node dist/src"
   },
   "keywords": [
     "eat",
@@ -17,6 +16,7 @@
   "license": "MIT",
   "dependencies": {
     "https-proxy-agent": "^3.0.1",
-    "telegraf": "^3.33.3"
+    "telegraf": "^3.33.3",
+    "typescript": "^3.7.2"
   }
 }
